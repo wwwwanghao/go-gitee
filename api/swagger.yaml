@@ -14320,6 +14320,21 @@ definitions:
     example:
       name: "name"
       commit: "commit"
+  ProjectLabel:
+    type: "object"
+    properties:
+      id:
+        type: "integer"
+        format: "int32"
+      name:
+        type: "string"
+      ident:
+        type: "string"
+    description: "创建仓库标签"
+    example:
+      id: 0
+      name: "name"
+      ident: "ident"
   ProjectMember:
     type: "object"
     properties:
